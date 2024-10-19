@@ -5,9 +5,9 @@ RFM (Recency, Frequency, Monetary) Analysis is a marketing technique used to und
 This analysis enables businesses to create targeted marketing campaigns and personalized strategies for different customer segments.
 
 # Key Metrics
-Recency: The date of the customer’s most recent purchase.
-Frequency: The total number of purchases made by the customer.
-Monetary value: The total monetary value of the purchases made by the customer.
+-Recency: The date of the customer’s most recent purchase.
+-Frequency: The total number of purchases made by the customer.
+-Monetary value: The total monetary value of the purchases made by the customer.
 # Dataset
 The dataset used for this analysis includes customer IDs, purchase dates, and transaction amounts. You can access the dataset here:
 US Regional Sales Data
@@ -15,17 +15,17 @@ US Regional Sales Data
 # Customer Segmentation
 Based on the average RFM score, customers are divided into three value segments:
 
-High-Value: Top 20% of customers based on RFM scores.
-Mid-Value: Next 30% of customers.
-Low-Value: Bottom 50% of customers.
+-High-Value: Top 20% of customers based on RFM scores.
+-Mid-Value: Next 30% of customers.
+-Low-Value: Bottom 50% of customers.
 Customer Segment Examples
 When segmenting customers based on RFM scores, we can create the following customer segments:
 
-VIP Customers: High-value customers who make frequent and recent purchases with high monetary value. They are the most loyal and valuable customers.
-Regular Customers: Customers who frequently make purchases but may not spend as much as VIPs. They contribute to steady sales.
-Dormant Customers: Customers who have not made recent purchases but were once active. Targeted marketing strategies may be required to re-engage them.
-New Customers: Recently acquired customers who made their first purchase. Nurturing them is crucial to building long-term loyalty.
-Churned Customers: Previously active customers who haven't purchased in a long time. They require reactivation efforts to prevent permanent churn.
+-VIP Customers: High-value customers who make frequent and recent purchases with high monetary value. They are the most loyal and valuable customers.
+-Regular Customers: Customers who frequently make purchases but may not spend as much as VIPs. They contribute to steady sales.
+-Dormant Customers: Customers who have not made recent purchases but were once active. Targeted marketing strategies may be required to re-engage them.
+-New Customers: Recently acquired customers who made their first purchase. Nurturing them is crucial to building long-term loyalty.
+-Churned Customers: Previously active customers who haven't purchased in a long time. They require reactivation efforts to prevent permanent churn.
 # References
-RFM Analysis Case Study
-RFM Analysis Using Python
+-RFM Analysis Case Study
+-RFM Analysis Using Python
