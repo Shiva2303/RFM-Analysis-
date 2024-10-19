@@ -1,32 +1,31 @@
-# RFM Analysis: 
-RFM Analysis is used to understand and segment customers based on their buying behaviour. RFM stands for recency, frequency, and monetary value, which are three key metrics that provide information about customer engagement, loyalty, and value to a business. These segments enables targeted marketing and personalized strategies for each segment. Using RFM Analysis, a business can assess customer's:
+### RFM Analysis
+# Overview
+RFM (Recency, Frequency, Monetary) Analysis is a marketing technique used to understand and segment customers based on their purchasing behavior. By analyzing Recency (when the last purchase was made), Frequency (how often purchases are made), and Monetary value (how much is spent), businesses can gauge customer engagement, loyalty, and overall value.
 
+This analysis enables businesses to create targeted marketing campaigns and personalized strategies for different customer segments.
 
+# Key Metrics
+Recency: The date of the customer’s most recent purchase.
+Frequency: The total number of purchases made by the customer.
+Monetary value: The total monetary value of the purchases made by the customer.
+# Dataset
+The dataset used for this analysis includes customer IDs, purchase dates, and transaction amounts. You can access the dataset here:
+US Regional Sales Data
 
-recency (the date they made their last purchase)
-frequency (how often they make purchases)
-monetary value (the amount spent on purchases)
-To perform RFM analysis, we need a dataset that includes customer IDs, purchase dates, and transaction amounts.
+# Customer Segmentation
+Based on the average RFM score, customers are divided into three value segments:
 
+High-Value: Top 20% of customers based on RFM scores.
+Mid-Value: Next 30% of customers.
+Low-Value: Bottom 50% of customers.
+Customer Segment Examples
+When segmenting customers based on RFM scores, we can create the following customer segments:
 
-Dataset : https://data.world/dataman-udit/us-regional-sales-data
-
-
-We cab divide Customers into 3 Value segments based on average RFM Score as follows:
-
-High-Value (Top 20%)
-Mid-Value (Next 30%)
-Low-Value (Next 50%)
-When segmenting customers based on RFM (Recency, Frequency, Monetary), we can create customer segments that reflect their purchasing behavior. Here are five segment names we can consider:
-
-VIP Customers: This segment represents the high-value customers who have made recent and frequent purchases with a high monetary value. They are the most valuable and loyal customers.
-Regular Customers: This segment includes customers who make frequent purchases but may not have the highest monetary value. They are reliable and contribute to consistent sales.
-Dormant Customers: This segment consists of customers who haven't made a purchase in a while, despite having a history of previous purchases. These customers may require targeted marketing efforts to reactivate them.
-New Customers: This segment represents customers who have recently made their first purchase. They require nurturing and engagement to encourage repeat purchases and long-term loyalty.
-Churned Customers: This segment comprises customers who were once active but haven't made a purchase in a long time. They require re-engagement strategies to win them back and prevent them from churning.
-
-References :
-https://statso.io/rfm-analysis-case-study/
-
-
-https://thecleverprogrammer.com/2023/06/12/rfm-analysis-using-python/
+VIP Customers: High-value customers who make frequent and recent purchases with high monetary value. They are the most loyal and valuable customers.
+Regular Customers: Customers who frequently make purchases but may not spend as much as VIPs. They contribute to steady sales.
+Dormant Customers: Customers who have not made recent purchases but were once active. Targeted marketing strategies may be required to re-engage them.
+New Customers: Recently acquired customers who made their first purchase. Nurturing them is crucial to building long-term loyalty.
+Churned Customers: Previously active customers who haven't purchased in a long time. They require reactivation efforts to prevent permanent churn.
+# References
+RFM Analysis Case Study
+RFM Analysis Using Python
